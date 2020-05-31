@@ -39,7 +39,7 @@ pip install numpy==1.16.1
 ```
 
 #### Tensorflow, CUDA, Keras
-Installation for Tensorflow, CUDA, and Keras is a bit difficult. I'm following the tutorial from this video: https://www.youtube.com/watch?v=qrkEYf-YDyI&list=WL&index=6&t=1130s
+Installation for Tensorflow, CUDA, and Keras is a bit complicated. I'm following the tutorial from this video: https://www.youtube.com/watch?v=qrkEYf-YDyI&list=WL&index=6&t=1130s
 
 And btw, i'm using Tensorflow that rendered with GPU.
 
