@@ -55,7 +55,7 @@ I've uploaded the demo of application, so you can see it from here: https://bit.
 ## Built With
 
 * [Python 3.6.8](https://www.python.org/) - The programming language used
-* [Laravel](https://laravel.com/ - The framework used
+* [Laravel](https://laravel.com/) - The framework used
  
 
 ## Authors
