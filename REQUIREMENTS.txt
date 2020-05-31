@@ -1,0 +1,11 @@
+Python: 3.6.8
+Cuda: 9.0
+Cuddn: 7.64
+Tensorflow: 1.8
+Keras: 2.1.5
+Numpy: 1.18.2 => 1.16.4 => 1.16.1
+Scipy: 1.4.1 => 1.1.0
+Tkinter: 8.6
+Pillow: 6.2.1
+OpenCV: 4.1.2
+MYSQL Connector: 8.0.19

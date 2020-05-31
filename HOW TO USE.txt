@@ -1,0 +1,60 @@
+== PETUNJUK PENGGUNAAN ==
+1. Pastikan anda sudah melakukan penginstalan program, library, dan database yang telah ditulis pada "REQUIREMENTS.txt"
+2. Jangan lupa untuk menyalakan server Apache dan MySQL anda
+3. Jalankan "start.py" untuk membuka aplikasi presensi wajah
+
+== REGISTRASI WAJAH ==
+1. Klik menu "Register Face" untuk mendaftarkan wajah anda di sistem
+2. Masukkan employeeID anda atau kode karyawan untuk melakukan registrasi wajah
+3. Jika tidak ditemukan, maka lakukan pendaftaran employee atau karyawan pada panel admin dengan role: HQ atau HRD
+4. Jika sudah berhasil memasukkan employeeID, aplikasi akan melakukan penangkapan citra wajah sebanyak 100 kali
+5. Pada saat aplikasi sedang melakukan penangkapan citra wajah, pastikan wajah anda terlihat dengan jelas (kondisi cahaya yang bagus)
+ dan tidak banyak melakukan gerakan yang cepat
+6. Frame layar akan otomatis tertutup apabila proses registrasi telah selesai, setelah itu jangan lupa untuk melakukan training dataset
+7. Wajah lama yang telah diregistrasi dapat ditimpa oleh wajah yang baru kembali, dengan melakukan registrasi ulang tanpa melakukan hapus wajah
+
+== LATIH DATASET ==
+1. Setelah registrasi telah dilakukan, klik menu "Train Dataset" untuk melakukan training dataset
+2. Proses training dilakukan untuk membuat sebuah file "trainer.yml" yang berlokasi di folder "trainer"
+3. Hal ini dilakukan agar aplikasi dapat mengenali wajah anda
+4. Jika sudah selesai, maka frame layar akan otomatis tertutup
+
+== PRESENSI DATANG ==
+1. Klik menu "Attend" untuk melakukan presensi masuk karyawan
+2. Setelah diklik, maka anda harus menunggu beberapa detik agar Frame layar muncul
+3. Frame layar akan langsung mencari wajah yang terdeteksi oleh kamera
+4. Aplikasi sudah dapat membedakan apakah wajah yang terdeteksi merupakan wajah asli atau bukan (Anti spoof)
+5. Apabila wajah yang terdeteksi adalah palsu (foto dari hp misalnya), maka aplikasi akan memberikan informasi bahwa wajah tersebut "fake" atau palsu
+   dengan memberikan kotak berwarna merah pada wajah tersebut
+6. Sedangkan, apabila wajah yang terdeteksi adalah asli, maka aplikasi akan memberikan informasi siapa nama orang dari wajah tersebut dengan memberikan 
+   kotak berwarna putih pada wajah tersebut
+7. Jika sudah teridentifikasi wajah asli siapa yang telah terdeteksi, maka aplikasi akan mencatat kehadiran karyawan di database dengan memberi notif suara
+8. Jika sebelumnya, karyawan telah melakukan presensi datang pada tanggal, bulan, dan tahun yang sama, maka aplikasi akan memberikan informasi bahwa karyawan tersebut
+   telah melakukan presensi dan telah tercatat di database
+9. Jika sudah mau melakukan presensi maka, tekan tombol 'q' pada keyboard untuk keluar
+
+== PRESENSI PULANG ==
+1. Klik menu "Return" untuk melakukan presensi pulang karyawan
+2. Setelah diklik, maka anda harus menunggu beberapa detik agar Frame layar muncul
+3. Frame layar akan langsung mencari wajah yang terdeteksi oleh kamera
+4. Aplikasi sudah dapat membedakan apakah wajah yang terdeteksi merupakan wajah asli atau bukan (Anti spoof)
+5. Apabila wajah yang terdeteksi adalah palsu (foto dari hp misalnya), maka aplikasi akan memberikan informasi bahwa wajah tersebut "fake" atau palsu
+   dengan memberikan kotak berwarna merah pada wajah tersebut
+6. Sedangkan, apabila wajah yang terdeteksi adalah asli, maka aplikasi akan memberikan informasi siapa nama orang dari wajah tersebut dengan memberikan 
+   kotak berwarna putih pada wajah tersebut
+7. Jika sudah teridentifikasi wajah asli siapa yang telah terdeteksi, maka aplikasi akan mencatat kehadiran karyawan di database dengan memberi notif suara
+8. Jika sebelumnya, karyawan telah melakukan presensi pulang pada tanggal, bulan, dan tahun yang sama, maka aplikasi akan mengupdate jam presensi pulang sebelumnya
+9. Jika sudah mau melakukan presensi maka, tekan tombol 'q' pada keyboard untuk keluar
+
+== HAPUS WAJAH ==
+1. Klik menu "Delete Trained Face"
+2. Masukkan employeeID atau kode karyawan yang akan dihapus wajahnya
+3. Tunggu beberapa saat
+4. Wajah telah berhasil dihapus
+5. Lakukan training wajah kembali
+
+== CEK KEHADIRAN ==
+1. Klik menu "Check Attendance"
+2. Maka, aplikasi akan otomatis membuka link admin panel
+3. Lakukan login untuk masuk ke admin panel
+4. Anda dapat melihat tabel kehadiran
