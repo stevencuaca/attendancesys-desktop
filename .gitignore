@@ -109,7 +109,7 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/python
 
-# dataset of face image
+# dataset of face image, spoof image, and real/fake video
 dataset/
 spoof_dataset/
 videos/
