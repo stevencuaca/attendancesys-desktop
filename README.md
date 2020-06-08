@@ -1,5 +1,6 @@
 # Attendancesys-Desktop
 
+![alt text](https://i.ibb.co/0JnZKW7/2.png)
 A desktop app of attendancesys for face recognition attendance system with anti-spoofing. This app is integerated with another web application. You can check on my another repo or just click this link: https://github.com/stevencuaca/attendancesys-web
 
 ## Getting Started
