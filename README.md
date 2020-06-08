@@ -1,10 +1,10 @@
-# Attendancesys
+# Attendancesys-Desktop
 
-A face recognition attendance system with anti-spoofing.
+A desktop app of attendancesys for face recognition attendance system with anti-spoofing. This app is integerated with another web application. You can check on my another repo or just click this link: https://github.com/stevencuaca/attendancesys-web
 
 ## Getting Started
 
-This is a face recognition application that running with Python. The application is used for a company to record the employees attendance in database using a webcam. To use this applicatoin you need a laptop/pc that have a NVIDIA graphics card because this application runs with Tensorflow and CUDA. This application able to detect a real face or fake face (a picture from a smartphone's screen). I'm using Local Binary Pattern Histogram (LBPH) for the face recognition and Convolutional Neural Network (CNN) for the anti-spoofing. There is also an Admin Panel web page to seeing the report, manage the employee, office rules, salary calculation, etc. The Admin Panel is developed using Laravel, but it isn't here. I will add the repo soon :)
+This is a face recognition application that running with Python. The application is used for a company to record the employees attendance in database using a webcam. To use this applicatoin you need a laptop/pc that have a NVIDIA graphics card because this application runs with Tensorflow and CUDA. This application able to detect a real face or fake face (a picture from a smartphone's screen). I'm using Local Binary Pattern Histogram (LBPH) for the face recognition and Convolutional Neural Network (CNN) for the anti-spoofing. There is also an Admin Panel web page to seeing the report, manage the employee, office rules, salary calculation, etc.
 
 ### Prerequisites
 
@@ -16,8 +16,8 @@ Cuda: 9.0
 Cuddn: 7.64
 Tensorflow: 1.8
 Keras: 2.1.5
-Numpy: 1.18.2 => 1.16.4 => 1.16.1
-Scipy: 1.4.1 => 1.1.0
+Numpy: 1.16.1
+Scipy: 1.1.0
 Tkinter: 8.6
 Pillow: 6.2.1
 OpenCV: 4.1.2
