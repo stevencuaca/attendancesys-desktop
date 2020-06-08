@@ -64,4 +64,4 @@ I've uploaded the demo of application, so you can see it from here: https://bit.
 
 ## Authors
 
-* **Steven Cuaca** - *Initial work* - [E-mail] cuacasteven@gmail.com
+* **Steven Cuaca** - *Final Project* - [E-mail] cuacasteven@gmail.com
