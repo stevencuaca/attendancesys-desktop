@@ -4,12 +4,20 @@ import mysql.connector
 import ctypes
 from playsound import playsound
 
-#connect database
-mydb = mysql.connector.connect(
+# Connect to database
+""" mydb = mysql.connector.connect(
     host="127.0.0.1",
     user="root",
     passwd="",
     database="attendance_system"
+)
+mycursor = mydb.cursor() """
+
+mydb = mysql.connector.connect(
+    host="185.237.145.80",
+    user="u8748139_steven",
+    password="QI,!zyrb2~7{",
+    database="u8748139_attendance_system"
 )
 mycursor = mydb.cursor()
 

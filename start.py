@@ -30,7 +30,7 @@ def deleteFace():
     os.system("py delete_face.py")  
 
 def checkAttendance():
-    webbrowser.open('http://localhost:8000', new=2)
+    webbrowser.open('https://attendancesys.project-aladdin.com', new=2)
 
 def help():
     webbrowser.open("README.txt")
